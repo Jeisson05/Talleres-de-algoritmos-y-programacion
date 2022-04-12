@@ -1,0 +1,9 @@
+#Entradas
+mujeres=int(input("Digite cantidad de mujeres: "))#int
+hombres=int(input("Digite cantidad de hombres: "))#int
+#Caja negra
+total_estudiantes=mujeres+hombres#int
+mp=(mujeres*100)/total_estudiantes#float
+hp=(hombres*100)/total_estudiantes#float
+#Salidas
+print(f"El porcentaje de mujeres: {round(mp,2)} y el porcentaje de hombres {round(hp,2)}")#str
